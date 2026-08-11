@@ -1,0 +1,23 @@
+{
+  "name": "manukora-sop-brief",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Monthly S&OP briefing automation — Manukora AI Automation Engineer practical brief",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "analyze": "tsx src/analyze.ts",
+    "brief": "tsx src/generate-brief.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^3.0.0"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.65.0"
+  }
+}
