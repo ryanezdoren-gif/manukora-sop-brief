@@ -26,6 +26,9 @@ const facts: AnalysisFacts = {
   totals: {
     m4RevenueUsd: revenue(3),
     m3RevenueUsd: revenue(2),
+    reorderNowExposureUsdPerMonth: Math.round(
+      recommendations.filter((r) => r.action === "REORDER_NOW").reduce((s, r) => s + r.revenueOpportunity, 0),
+    ),
     bestSellersByM4Revenue: m4Revenue.slice(0, 3).map((x) => x.sku),
     fastestGrowers: byGrowth.slice(0, 3).map((m) => m.sku),
     decliners: metrics.filter((m) => m.growthRate < 0).map((m) => m.sku),

@@ -39,6 +39,9 @@ const facts: AnalysisFacts = {
   totals: {
     m4RevenueUsd: m4Revenue,
     m3RevenueUsd: m3Revenue,
+    reorderNowExposureUsdPerMonth: Math.round(
+      recommendations.filter((r) => r.action === "REORDER_NOW").reduce((s, r) => s + r.revenueOpportunity, 0),
+    ),
     bestSellersByM4Revenue: metrics
       .map((m, i) => ({ sku: m.sku, rev: m.combined[3] * rows[i].retailPriceUsd }))
       .sort((a, b) => b.rev - a.rev)
@@ -89,6 +92,7 @@ function appendix(): string {
   }
   lines.push(
     `\nM4 revenue: $${m4Revenue.toLocaleString("en-US")} (M3: $${m3Revenue.toLocaleString("en-US")}). ` +
+      `Combined REORDER_NOW exposure: $${facts.totals.reorderNowExposureUsdPerMonth.toLocaleString("en-US")}/mo. ` +
       "All figures computed by tested code (`src/metrics.ts`, `src/recommend.ts`); the narrative above was validated against them (`src/validate-brief.ts`).",
   );
   return lines.join("\n");

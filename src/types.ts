@@ -52,6 +52,10 @@ export interface AnalysisFacts {
   totals: {
     m4RevenueUsd: number;
     m3RevenueUsd: number;
+    // Pre-summed so the narrative never has to add figures itself — the first
+    // v2 run summed the four REORDER_NOW exposures on its own (correctly, but
+    // unverifiably).
+    reorderNowExposureUsdPerMonth: number;
     bestSellersByM4Revenue: string[];
     fastestGrowers: string[];
     decliners: string[];

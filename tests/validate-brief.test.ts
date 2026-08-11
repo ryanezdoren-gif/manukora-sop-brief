@@ -18,6 +18,7 @@ const facts: AnalysisFacts = {
   totals: {
     m4RevenueUsd: 0,
     m3RevenueUsd: 0,
+    reorderNowExposureUsdPerMonth: 0,
     bestSellersByM4Revenue: [],
     fastestGrowers: [],
     decliners: [],
