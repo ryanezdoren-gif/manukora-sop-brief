@@ -42,7 +42,19 @@ export function validateBriefing(narrative: string, facts: AnalysisFacts): Valid
       failures.push(`Narrative mentions unknown SKU strength: "${mention}"`);
     }
   }
-  const blendMentions = narrative.match(/Bioactive Blend\s+(\w+)/g) ?? [];
+  // A known strength with a size the catalog doesn't sell ("MGO 850+ 100g") is
+  // still an invented SKU — check the full strength+size combination.
+  const mgoSizeMentions = narrative.match(/MGO\s*\d+\+\s*\d+\s?k?g/g) ?? [];
+  for (const mention of new Set(mgoSizeMentions)) {
+    const m = mention.match(/MGO\s*(\d+)\+\s*(\d+\s?k?g)/)!;
+    if (!knownSkus.some((s) => s.includes(`MGO ${m[1]}+ ${m[2].replace(/\s/, "")}`))) {
+      failures.push(`Narrative mentions a size variant that does not exist: "${mention}"`);
+    }
+  }
+  // Capitalized word only: "Bioactive Blend Focus" is an invented SKU, but
+  // "Bioactive Blend launch/family/portfolio" is legitimate collective prose
+  // (a v1 run was falsely rejected for exactly this).
+  const blendMentions = narrative.match(/Bioactive Blend\s+[A-Z][A-Za-z]+/g) ?? [];
   for (const mention of new Set(blendMentions)) {
     if (!knownSkus.some((s) => mention.startsWith(s.slice(0, mention.length)) || s.startsWith(mention))) {
       failures.push(`Narrative mentions unknown SKU: "${mention}"`);

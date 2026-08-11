@@ -1,10 +1,13 @@
 import { writeFileSync, mkdirSync } from "node:fs";
+import { fileURLToPath } from "node:url";
 import { loadSkuRows } from "./data.js";
 import { computeMetrics, round2 } from "./metrics.js";
 import { recommend } from "./recommend.js";
 import type { AnalysisFacts } from "./types.js";
 
-const rows = loadSkuRows(new URL("../data/mock_data.csv", import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1"));
+const here = (rel: string) => fileURLToPath(new URL(rel, import.meta.url));
+
+const rows = loadSkuRows(here("../data/mock_data.csv"));
 const metrics = rows.map(computeMetrics);
 const recommendations = recommend(metrics);
 
@@ -29,11 +32,8 @@ const facts: AnalysisFacts = {
   },
 };
 
-mkdirSync(new URL("../output", import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1"), { recursive: true });
-writeFileSync(
-  new URL("../output/facts.json", import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1"),
-  JSON.stringify(facts, null, 2),
-);
+mkdirSync(here("../output"), { recursive: true });
+writeFileSync(here("../output/facts.json"), JSON.stringify(facts, null, 2));
 
 // Console summary for a quick human sanity check.
 console.log(`M4 revenue: $${facts.totals.m4RevenueUsd.toLocaleString("en-US")} (M3: $${facts.totals.m3RevenueUsd.toLocaleString("en-US")})`);
