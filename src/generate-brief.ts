@@ -101,6 +101,16 @@ for (attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
   console.log(`Generating briefing (prompt ${promptVersion}, attempt ${attempt})...`);
   narrative = await generate(lastFailures.length ? lastFailures.map((f) => `- ${f}`).join("\n") : null);
   const result = validateBriefing(narrative, facts);
+  // Every raw draft is kept on disk, pass or fail — the iteration record must show
+  // what the model actually produced, not only what survived the gate.
+  mkdirSync(here("../output/attempts"), { recursive: true });
+  const status = result.ok
+    ? "PASSED validation"
+    : `FAILED validation:\n${result.failures.map((f) => `  - ${f}`).join("\n")}`;
+  writeFileSync(
+    here(`../output/attempts/${promptVersion}-attempt-${attempt}.md`),
+    `<!--\nRaw model output. Prompt ${promptVersion}, attempt ${attempt}. ${status}\n-->\n\n${narrative}\n`,
+  );
   if (result.ok) break;
   lastFailures = result.failures;
   console.error(`Validation failed:\n${result.failures.map((f) => `  - ${f}`).join("\n")}`);
