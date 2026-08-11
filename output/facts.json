@@ -1,0 +1,442 @@
+{
+  "generatedFor": "March 2026 (M4)",
+  "metrics": [
+    {
+      "sku": "Manuka Honey MGO 100+ 250g",
+      "combined": [
+        924,
+        928,
+        1024,
+        1032
+      ],
+      "baselineDemand": 1032,
+      "trendFromMonth": 1,
+      "growthRate": 0.0375,
+      "perChannelGrowth": {
+        "shopify": 0.0427,
+        "amazon": 0.0291
+      },
+      "projectedDemand": 1071,
+      "revenueOpportunity": 26764.29,
+      "simpleMonthsCover": 6.2,
+      "runwayMonths": 7,
+      "runwayWithoutOrderMonths": 5.49,
+      "isBioactive": false,
+      "isPhaseOut": false,
+      "flags": [
+        "Amazon units fell in the latest month (404 → 388) even though the overall trend is up — watch channel mix before extrapolating growth."
+      ]
+    },
+    {
+      "sku": "Manuka Honey MGO 263+ 250g",
+      "combined": [
+        1328,
+        1408,
+        1528,
+        1604
+      ],
+      "baselineDemand": 1604,
+      "trendFromMonth": 1,
+      "growthRate": 0.065,
+      "perChannelGrowth": {
+        "shopify": 0.0647,
+        "amazon": 0.0653
+      },
+      "projectedDemand": 1708,
+      "revenueOpportunity": 59762.92,
+      "simpleMonthsCover": 4.55,
+      "runwayMonths": 5.33,
+      "runwayWithoutOrderMonths": 3.89,
+      "isBioactive": false,
+      "isPhaseOut": false,
+      "flags": []
+    },
+    {
+      "sku": "Manuka Honey MGO 263+ 500g",
+      "combined": [
+        556,
+        596,
+        628,
+        684
+      ],
+      "baselineDemand": 684,
+      "trendFromMonth": 1,
+      "growthRate": 0.0715,
+      "perChannelGrowth": {
+        "shopify": 0.0613,
+        "amazon": 0.0882
+      },
+      "projectedDemand": 733,
+      "revenueOpportunity": 40307.67,
+      "simpleMonthsCover": 2.49,
+      "runwayMonths": 2.22,
+      "runwayWithoutOrderMonths": 2.22,
+      "isBioactive": false,
+      "isPhaseOut": false,
+      "flags": []
+    },
+    {
+      "sku": "Manuka Honey MGO 514+ 250g",
+      "combined": [
+        760,
+        808,
+        864,
+        940
+      ],
+      "baselineDemand": 940,
+      "trendFromMonth": 1,
+      "growthRate": 0.0734,
+      "perChannelGrowth": {
+        "shopify": 0.0798,
+        "amazon": 0.0642
+      },
+      "projectedDemand": 1009,
+      "revenueOpportunity": 50439.91,
+      "simpleMonthsCover": 3.62,
+      "runwayMonths": 4.37,
+      "runwayWithoutOrderMonths": 3.12,
+      "isBioactive": false,
+      "isPhaseOut": false,
+      "flags": []
+    },
+    {
+      "sku": "Manuka Honey MGO 514+ 500g",
+      "combined": [
+        300,
+        328,
+        352,
+        392
+      ],
+      "baselineDemand": 392,
+      "trendFromMonth": 1,
+      "growthRate": 0.0933,
+      "perChannelGrowth": {
+        "shopify": 0.0901,
+        "amazon": 0.0977
+      },
+      "projectedDemand": 429,
+      "revenueOpportunity": 34315.71,
+      "simpleMonthsCover": 1.99,
+      "runwayMonths": 1.75,
+      "runwayWithoutOrderMonths": 1.75,
+      "isBioactive": false,
+      "isPhaseOut": false,
+      "flags": []
+    },
+    {
+      "sku": "Manuka Honey MGO 850+ 250g",
+      "combined": [
+        440,
+        472,
+        500,
+        536
+      ],
+      "baselineDemand": 536,
+      "trendFromMonth": 1,
+      "growthRate": 0.068,
+      "perChannelGrowth": {
+        "shopify": 0.0609,
+        "amazon": 0.0789
+      },
+      "projectedDemand": 572,
+      "revenueOpportunity": 40034.28,
+      "simpleMonthsCover": 3.54,
+      "runwayMonths": 4.22,
+      "runwayWithoutOrderMonths": 3.09,
+      "isBioactive": false,
+      "isPhaseOut": false,
+      "flags": []
+    },
+    {
+      "sku": "Manuka Honey MGO 850+ 500g",
+      "combined": [
+        184,
+        208,
+        224,
+        244
+      ],
+      "baselineDemand": 244,
+      "trendFromMonth": 1,
+      "growthRate": 0.0986,
+      "perChannelGrowth": {
+        "shopify": 0.0874,
+        "amazon": 0.1157
+      },
+      "projectedDemand": 268,
+      "revenueOpportunity": 29477.32,
+      "simpleMonthsCover": 1.8,
+      "runwayMonths": 1.58,
+      "runwayWithoutOrderMonths": 1.58,
+      "isBioactive": false,
+      "isPhaseOut": false,
+      "flags": []
+    },
+    {
+      "sku": "Manuka Honey MGO 1700+ 100g",
+      "combined": [
+        224,
+        248,
+        264,
+        300
+      ],
+      "baselineDemand": 300,
+      "trendFromMonth": 1,
+      "growthRate": 0.1023,
+      "perChannelGrowth": {
+        "shopify": 0.0897,
+        "amazon": 0.1211
+      },
+      "projectedDemand": 331,
+      "revenueOpportunity": 19856.69,
+      "simpleMonthsCover": 2.8,
+      "runwayMonths": 3.32,
+      "runwayWithoutOrderMonths": 2.36,
+      "isBioactive": false,
+      "isPhaseOut": false,
+      "flags": [
+        "Premium price point and longer supplier lead time — target cover is 3 months."
+      ]
+    },
+    {
+      "sku": "Propolis Tincture 30ml",
+      "combined": [
+        120,
+        140,
+        152,
+        168
+      ],
+      "baselineDemand": 168,
+      "trendFromMonth": 1,
+      "growthRate": 0.1187,
+      "perChannelGrowth": {
+        "shopify": 0.1102,
+        "amazon": 0.133
+      },
+      "projectedDemand": 188,
+      "revenueOpportunity": 6578.12,
+      "simpleMonthsCover": 1.37,
+      "runwayMonths": 1.2,
+      "runwayWithoutOrderMonths": 1.2,
+      "isBioactive": false,
+      "isPhaseOut": true,
+      "flags": [
+        "Phase-out in Q2 2026 — reorder only if cover falls below 30 days."
+      ]
+    },
+    {
+      "sku": "Bioactive Blend Immunity 250g",
+      "combined": [
+        384,
+        424,
+        472,
+        528
+      ],
+      "baselineDemand": 528,
+      "trendFromMonth": 2,
+      "growthRate": 0.1159,
+      "perChannelGrowth": {
+        "shopify": 0.111,
+        "amazon": 0.1233
+      },
+      "projectedDemand": 589,
+      "revenueOpportunity": 23554.11,
+      "simpleMonthsCover": 2.27,
+      "runwayMonths": 3.02,
+      "runwayWithoutOrderMonths": 1.93,
+      "isBioactive": true,
+      "isPhaseOut": false,
+      "flags": [
+        "Launched mid-January 2026 — trend measured M2→M4."
+      ]
+    },
+    {
+      "sku": "Bioactive Blend Energy 250g",
+      "combined": [
+        272,
+        308,
+        348,
+        388
+      ],
+      "baselineDemand": 388,
+      "trendFromMonth": 2,
+      "growthRate": 0.1224,
+      "perChannelGrowth": {
+        "shopify": 0.1229,
+        "amazon": 0.1216
+      },
+      "projectedDemand": 435,
+      "revenueOpportunity": 17395.65,
+      "simpleMonthsCover": 1.91,
+      "runwayMonths": 1.62,
+      "runwayWithoutOrderMonths": 1.62,
+      "isBioactive": true,
+      "isPhaseOut": false,
+      "flags": [
+        "Launched mid-January 2026 — trend measured M2→M4."
+      ]
+    },
+    {
+      "sku": "Bioactive Blend Recovery 250g",
+      "combined": [
+        248,
+        284,
+        320,
+        364
+      ],
+      "baselineDemand": 364,
+      "trendFromMonth": 2,
+      "growthRate": 0.1321,
+      "perChannelGrowth": {
+        "shopify": 0.1206,
+        "amazon": 0.1495
+      },
+      "projectedDemand": 412,
+      "revenueOpportunity": 16475.88,
+      "simpleMonthsCover": 1.68,
+      "runwayMonths": 1.42,
+      "runwayWithoutOrderMonths": 1.42,
+      "isBioactive": true,
+      "isPhaseOut": false,
+      "flags": [
+        "Launched mid-January 2026 — trend measured M2→M4."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "sku": "Manuka Honey MGO 100+ 250g",
+      "action": "MONITOR",
+      "priorityRank": null,
+      "revenueOpportunity": 26764.29,
+      "runwayMonths": 7,
+      "targetMonthsCover": 2,
+      "reasoning": "Stock is healthy (7 months runway vs 2 target) but the channel picture needs watching: Amazon units fell in the latest month (404 → 388) even though the overall trend is up — watch channel mix before extrapolating growth.",
+      "tension": null
+    },
+    {
+      "sku": "Manuka Honey MGO 263+ 250g",
+      "action": "NO_ACTION",
+      "priorityRank": null,
+      "revenueOpportunity": 59762.92,
+      "runwayMonths": 5.33,
+      "targetMonthsCover": 2,
+      "reasoning": "Covered: 5.33 months runway against a 2-month target.",
+      "tension": null
+    },
+    {
+      "sku": "Manuka Honey MGO 263+ 500g",
+      "action": "REORDER_SOON",
+      "priorityRank": 5,
+      "revenueOpportunity": 40307.67,
+      "runwayMonths": 2.22,
+      "targetMonthsCover": 2,
+      "reasoning": "Runway of 2.22 months clears the 2-month target by under a month. No emergency, but the next PO belongs in this cycle.",
+      "tension": null
+    },
+    {
+      "sku": "Manuka Honey MGO 514+ 250g",
+      "action": "NO_ACTION",
+      "priorityRank": null,
+      "revenueOpportunity": 50439.91,
+      "runwayMonths": 4.37,
+      "targetMonthsCover": 2,
+      "reasoning": "Covered: 4.37 months runway against a 2-month target.",
+      "tension": null
+    },
+    {
+      "sku": "Manuka Honey MGO 514+ 500g",
+      "action": "REORDER_NOW",
+      "priorityRank": 1,
+      "revenueOpportunity": 34315.71,
+      "runwayMonths": 1.75,
+      "targetMonthsCover": 2,
+      "reasoning": "No order is currently placed; stock runs out in ~1.75 months against a 2-month cover target while demand grows 9.3%/mo. Roughly $34,316/month of revenue is exposed if this stocks out.",
+      "tension": null
+    },
+    {
+      "sku": "Manuka Honey MGO 850+ 250g",
+      "action": "NO_ACTION",
+      "priorityRank": null,
+      "revenueOpportunity": 40034.28,
+      "runwayMonths": 4.22,
+      "targetMonthsCover": 2,
+      "reasoning": "Covered: 4.22 months runway against a 2-month target.",
+      "tension": null
+    },
+    {
+      "sku": "Manuka Honey MGO 850+ 500g",
+      "action": "REORDER_NOW",
+      "priorityRank": 2,
+      "revenueOpportunity": 29477.32,
+      "runwayMonths": 1.58,
+      "targetMonthsCover": 2,
+      "reasoning": "No order is currently placed; stock runs out in ~1.58 months against a 2-month cover target while demand grows 9.9%/mo. Roughly $29,477/month of revenue is exposed if this stocks out.",
+      "tension": null
+    },
+    {
+      "sku": "Manuka Honey MGO 1700+ 100g",
+      "action": "REORDER_SOON",
+      "priorityRank": 6,
+      "revenueOpportunity": 19856.69,
+      "runwayMonths": 3.32,
+      "targetMonthsCover": 3,
+      "reasoning": "Runway of 3.32 months clears the 3-month target by under a month. No emergency, but the next PO belongs in this cycle.",
+      "tension": null
+    },
+    {
+      "sku": "Propolis Tincture 30ml",
+      "action": "MONITOR",
+      "priorityRank": null,
+      "revenueOpportunity": 6578.12,
+      "runwayMonths": 1.2,
+      "targetMonthsCover": 2,
+      "reasoning": "Projected to stock out in ~1.2 months — inside the Q2 2026 phase-out window. Demand is still growing (11.9%/mo), so this sells down naturally; deprioritized per phase-out policy unless cover drops below 30 days.",
+      "tension": "Demand is growing 11.9%/mo on a product being phased out — natural sell-down is on track, but if the phase-out date slips, this becomes a stockout."
+    },
+    {
+      "sku": "Bioactive Blend Immunity 250g",
+      "action": "NO_ACTION",
+      "priorityRank": null,
+      "revenueOpportunity": 23554.11,
+      "runwayMonths": 3.02,
+      "targetMonthsCover": 2,
+      "reasoning": "Covered: 3.02 months runway against a 2-month target.",
+      "tension": null
+    },
+    {
+      "sku": "Bioactive Blend Energy 250g",
+      "action": "REORDER_NOW",
+      "priorityRank": 3,
+      "revenueOpportunity": 17395.65,
+      "runwayMonths": 1.62,
+      "targetMonthsCover": 2,
+      "reasoning": "No order is currently placed; stock runs out in ~1.62 months against a 2-month cover target while demand grows 12.2%/mo. Roughly $17,396/month of revenue is exposed if this stocks out.",
+      "tension": null
+    },
+    {
+      "sku": "Bioactive Blend Recovery 250g",
+      "action": "REORDER_NOW",
+      "priorityRank": 4,
+      "revenueOpportunity": 16475.88,
+      "runwayMonths": 1.42,
+      "targetMonthsCover": 2,
+      "reasoning": "No order is currently placed; stock runs out in ~1.42 months against a 2-month cover target while demand grows 13.2%/mo. Roughly $16,476/month of revenue is exposed if this stocks out.",
+      "tension": null
+    }
+  ],
+  "totals": {
+    "m4RevenueUsd": 337288.2,
+    "m3RevenueUsd": 311313.24,
+    "bestSellersByM4Revenue": [
+      "Manuka Honey MGO 263+ 250g",
+      "Manuka Honey MGO 514+ 250g",
+      "Manuka Honey MGO 263+ 500g"
+    ],
+    "fastestGrowers": [
+      "Bioactive Blend Recovery 250g",
+      "Bioactive Blend Energy 250g",
+      "Propolis Tincture 30ml"
+    ],
+    "decliners": []
+  }
+}
